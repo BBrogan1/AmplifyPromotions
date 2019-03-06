@@ -1,0 +1,97 @@
+body, html{
+	height: 100%;
+}
+
+.jumbotron{
+	height: 300px;
+	width: 100%;
+	margin-bottom:-0.05rem !important;
+	background-image:url("../Images/Logos/AmplifyAmp2.png");
+	background-size: 100% 100%;
+}
+.amp{
+	margin: auto;
+	content:url("../Images/Logos/AmplifyPromotionsTextStroke.png");
+	height: 200px;
+    
+}
+.nav{
+	background-color: pink;
+	border-radius: 20px;
+	border: solid black 1px;
+}
+.nav-item{
+	color: black;
+}
+a:hover{
+	color: black;
+}
+
+.row{
+	padding:5% 10% 0% 10%;
+	color: black;
+	
+}
+.box{
+	margin: 20px 0px;
+	padding: 2%;
+	background-color: #99ffff;
+	border: 1px solid black;
+	opacity: 0.8;
+	text-align: center;
+}
+
+.container-fluid{
+	background-image:url("../Images/Gallery/blackandwhite.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: cover;
+	width: 100%;
+	
+}
+
+.carousel-caption{
+	color: black;
+	font-size:20px;
+    top: 50%;
+	background-color: #99ffff;
+	border-radius: 50%;
+	opacity: 0.8;
+ }
+.carousel-inner{
+	box-shadow: 0 0 0 .5em pink;
+	border: solid #99ffff 5px;
+	border-radius: 5px;
+	height: 500px;
+	width: cover;
+}
+.slideshow{
+	margin-bottom:25px;
+}
+.form-group{
+	 color: pink;
+    text-shadow:
+				-1px -1px 0 #000,
+				1px -1px 0 #000,
+				-1px 1px 0 #000,
+				1px 1px 0 #000;
+	margin-left:20%;
+	margin-right:20%;
+}
+.btn-primary{
+	margin-left:20%;
+	margin-right:20%;
+	margin-bottom:10px;
+	background-color: #99ffff;
+	color: hotpink;
+}
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: hotpink;
+  background-color: #99ffff;
+  font-weight: bold;
+  border-radius: 20px;
+}
